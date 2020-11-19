@@ -1,0 +1,618 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-19T12:02:16.996Z",
+        "line": 15,
+        "name": "Add Address API validation",
+        "description": "",
+        "id": "check-addaddress-api;add-address-api-validation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 858796000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I had Add Address input payload with \"50.61284\" \"-67.3345698\" \"62.87\" \"White House New4\" \"(+88) 777 999 6767\" \"202, Pensilvenia USA\" \"USA, Security\" \"www.usa.us\" \"US-English\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50.61284",
+                  "offset": 38
+                },
+                {
+                  "val": "-67.3345698",
+                  "offset": 49
+                },
+                {
+                  "val": "62.87",
+                  "offset": 63
+                },
+                {
+                  "val": "White House New4",
+                  "offset": 71
+                },
+                {
+                  "val": "(+88) 777 999 6767",
+                  "offset": 90
+                },
+                {
+                  "val": "202, Pensilvenia USA",
+                  "offset": 111
+                },
+                {
+                  "val": "USA, Security",
+                  "offset": 134
+                },
+                {
+                  "val": "www.usa.us",
+                  "offset": 150
+                },
+                {
+                  "val": "US-English",
+                  "offset": 163
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.i_have_add_address_input_payload_with(double,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1267861000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I call the \"addAddressAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "addAddressAPI",
+                  "offset": 12
+                },
+                {
+                  "val": "POST",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.i_call_the_api_with_post_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 846000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Status call is done successfully with status code 200",
+            "match": {
+              "location": "stepDefinitions.addAddressSD.status_call_is_done_successfully_with_status_code_200()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 358569000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"status\" in output payload is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 1
+                },
+                {
+                  "val": "OK",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.something_in_output_payload_is_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14223000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"scope\" in output payload is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scope",
+                  "offset": 1
+                },
+                {
+                  "val": "APP",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.something_in_output_payload_is_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1574763000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify place_id created maps to \"White House New4\" using \"getAddressAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "White House New4",
+                  "offset": 33
+                },
+                {
+                  "val": "getAddressAPI",
+                  "offset": 58
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.verify_place_id_created_maps_to_using(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-19T12:02:21.145Z",
+        "line": 16,
+        "name": "Add Address API validation",
+        "description": "",
+        "id": "check-addaddress-api;add-address-api-validation;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2790000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I had Add Address input payload with \"10.2325\" \"-2.64398\" \"100\" \"British Parliament New\" \"(+44) 999 888 4242\" \"999, London UK\" \"UK, Security, Tourist Attraction\" \"www.london.uk\" \"UK-English\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10.2325",
+                  "offset": 38
+                },
+                {
+                  "val": "-2.64398",
+                  "offset": 48
+                },
+                {
+                  "val": "100",
+                  "offset": 59
+                },
+                {
+                  "val": "British Parliament New",
+                  "offset": 65
+                },
+                {
+                  "val": "(+44) 999 888 4242",
+                  "offset": 90
+                },
+                {
+                  "val": "999, London UK",
+                  "offset": 111
+                },
+                {
+                  "val": "UK, Security, Tourist Attraction",
+                  "offset": 128
+                },
+                {
+                  "val": "www.london.uk",
+                  "offset": 163
+                },
+                {
+                  "val": "UK-English",
+                  "offset": 179
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.i_have_add_address_input_payload_with(double,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 169004000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I call the \"addAddressAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "addAddressAPI",
+                  "offset": 12
+                },
+                {
+                  "val": "POST",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.i_call_the_api_with_post_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Status call is done successfully with status code 200",
+            "match": {
+              "location": "stepDefinitions.addAddressSD.status_call_is_done_successfully_with_status_code_200()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21183000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"status\" in output payload is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 1
+                },
+                {
+                  "val": "OK",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.something_in_output_payload_is_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13782000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"scope\" in output payload is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scope",
+                  "offset": 1
+                },
+                {
+                  "val": "APP",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.something_in_output_payload_is_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1499653000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify place_id created maps to \"British Parliament New\" using \"getAddressAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "British Parliament New",
+                  "offset": 33
+                },
+                {
+                  "val": "getAddressAPI",
+                  "offset": 64
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.verify_place_id_created_maps_to_using(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-19T12:02:22.854Z",
+        "line": 17,
+        "name": "Add Address API validation",
+        "description": "",
+        "id": "check-addaddress-api;add-address-api-validation;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2232000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I had Add Address input payload with \"32.363\" \"-47.86283\" \"69\" \"Indian Parliament New\" \"(+91) 911 108 5759\" \"22, Delhi INDIA\" \"INDIA, Sabha, Tourist Attraction\" \"www.delh.in\" \"IN-Hindi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "32.363",
+                  "offset": 38
+                },
+                {
+                  "val": "-47.86283",
+                  "offset": 47
+                },
+                {
+                  "val": "69",
+                  "offset": 59
+                },
+                {
+                  "val": "Indian Parliament New",
+                  "offset": 64
+                },
+                {
+                  "val": "(+91) 911 108 5759",
+                  "offset": 88
+                },
+                {
+                  "val": "22, Delhi INDIA",
+                  "offset": 109
+                },
+                {
+                  "val": "INDIA, Sabha, Tourist Attraction",
+                  "offset": 127
+                },
+                {
+                  "val": "www.delh.in",
+                  "offset": 162
+                },
+                {
+                  "val": "IN-Hindi",
+                  "offset": 176
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.i_have_add_address_input_payload_with(double,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 154617000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I call the \"addAddressAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "addAddressAPI",
+                  "offset": 12
+                },
+                {
+                  "val": "POST",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.i_call_the_api_with_post_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Status call is done successfully with status code 200",
+            "match": {
+              "location": "stepDefinitions.addAddressSD.status_call_is_done_successfully_with_status_code_200()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13220000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"status\" in output payload is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 1
+                },
+                {
+                  "val": "OK",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.something_in_output_payload_is_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17173000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"scope\" in output payload is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scope",
+                  "offset": 1
+                },
+                {
+                  "val": "APP",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.something_in_output_payload_is_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1594649000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify place_id created maps to \"Indian Parliament New\" using \"getAddressAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Indian Parliament New",
+                  "offset": 33
+                },
+                {
+                  "val": "getAddressAPI",
+                  "offset": 63
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.verify_place_id_created_maps_to_using(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-19T12:02:24.638Z",
+        "before": [
+          {
+            "result": {
+              "duration": 579000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.addPlaceFunctionality()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Delete Address API validation",
+        "description": "",
+        "id": "check-addaddress-api;delete-address-api-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 891000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I had Delete Address payload",
+            "match": {
+              "location": "stepDefinitions.addAddressSD.i_had_delete_address_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1769121000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I call the \"deleteAddressAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "deleteAddressAPI",
+                  "offset": 12
+                },
+                {
+                  "val": "POST",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.i_call_the_api_with_post_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Status call is done successfully with status code 200",
+            "match": {
+              "location": "stepDefinitions.addAddressSD.status_call_is_done_successfully_with_status_code_200()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13688000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "\"status\" in output payload is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 1
+                },
+                {
+                  "val": "OK",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.addAddressSD.something_in_output_payload_is_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2971040000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Get call should fail with status code 404",
+            "match": {
+              "location": "stepDefinitions.addAddressSD.get_call_should_fail_with_status_code()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeletePlace"
+          }
+        ]
+      }
+    ],
+    "name": "Check AddAddress API",
+    "description": "  I want ti valdate the API for adding the address",
+    "id": "check-addaddress-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/addAddress.feature",
+    "tags": []
+  }
+]

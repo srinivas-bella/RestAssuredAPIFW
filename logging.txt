@@ -1,0 +1,343 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 50.61284,
+        "lng": -67.3345698
+    },
+    "accuracy": "62.87",
+    "name": "White House New4",
+    "phone_number": "(+88) 777 999 6767",
+    "address": "202, Pensilvenia USA",
+    "types": [
+        "USA",
+        "Security"
+    ],
+    "website": "www.usa.us",
+    "language": "US-English"
+}
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2020 12:02:19 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "218d36a0ff884069fde4cc07a61a134d",
+    "scope": "APP",
+    "reference": "d3fda3ec165467c2a3bafb3c747c7a67d3fda3ec165467c2a3bafb3c747c7a67",
+    "id": "d3fda3ec165467c2a3bafb3c747c7a67"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=218d36a0ff884069fde4cc07a61a134d
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=218d36a0ff884069fde4cc07a61a134d
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2020 12:02:19 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 243
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "50.61284",
+        "longitude": "-67.3345698"
+    },
+    "accuracy": "63",
+    "name": "White House New4",
+    "phone_number": "(+88) 777 999 6767",
+    "address": "202, Pensilvenia USA",
+    "types": "USA,Security",
+    "website": "www.usa.us",
+    "language": "US-English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 10.2325,
+        "lng": -2.64398
+    },
+    "accuracy": "100",
+    "name": "British Parliament New",
+    "phone_number": "(+44) 999 888 4242",
+    "address": "999, London UK",
+    "types": [
+        "UK",
+        "Security",
+        "Tourist Attraction"
+    ],
+    "website": "www.london.uk",
+    "language": "UK-English"
+}
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2020 12:02:21 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "f94a2f1a1382939a996cef36991e979b",
+    "scope": "APP",
+    "reference": "8e37aad3253dbc2f35ae01f515a908828e37aad3253dbc2f35ae01f515a90882",
+    "id": "8e37aad3253dbc2f35ae01f515a90882"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=f94a2f1a1382939a996cef36991e979b
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=f94a2f1a1382939a996cef36991e979b
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2020 12:02:21 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 261
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "10.2325",
+        "longitude": "-2.64398"
+    },
+    "accuracy": "100",
+    "name": "British Parliament New",
+    "phone_number": "(+44) 999 888 4242",
+    "address": "999, London UK",
+    "types": "UK,Security,Tourist Attraction",
+    "website": "www.london.uk",
+    "language": "UK-English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 32.363,
+        "lng": -47.86283
+    },
+    "accuracy": "69",
+    "name": "Indian Parliament New",
+    "phone_number": "(+91) 911 108 5759",
+    "address": "22, Delhi INDIA",
+    "types": [
+        "INDIA",
+        "Sabha",
+        "Tourist Attraction"
+    ],
+    "website": "www.delh.in",
+    "language": "IN-Hindi"
+}
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2020 12:02:22 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "ca588ec9cf9d5970ec572c569e830dc7",
+    "scope": "APP",
+    "reference": "2b97cf6c73d7b423ccff534d149475872b97cf6c73d7b423ccff534d14947587",
+    "id": "2b97cf6c73d7b423ccff534d14947587"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=ca588ec9cf9d5970ec572c569e830dc7
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=ca588ec9cf9d5970ec572c569e830dc7
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2020 12:02:23 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 256
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "32.363",
+        "longitude": "-47.86283"
+    },
+    "accuracy": "69",
+    "name": "Indian Parliament New",
+    "phone_number": "(+91) 911 108 5759",
+    "address": "22, Delhi INDIA",
+    "types": "INDIA,Sabha,Tourist Attraction",
+    "website": "www.delh.in",
+    "language": "IN-Hindi"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "ca588ec9cf9d5970ec572c569e830dc7"
+}
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2020 12:02:24 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=ca588ec9cf9d5970ec572c569e830dc7
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=ca588ec9cf9d5970ec572c569e830dc7
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Thu, 19 Nov 2020 12:02:26 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 67
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "msg": "Get operation failed, looks like place_id  doesn't exists"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=ca588ec9cf9d5970ec572c569e830dc7
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=ca588ec9cf9d5970ec572c569e830dc7
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Thu, 19 Nov 2020 12:02:28 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 67
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "msg": "Get operation failed, looks like place_id  doesn't exists"
+}
